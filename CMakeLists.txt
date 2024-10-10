@@ -10,5 +10,3 @@ add_library(my_repo_2_lib STATIC
   dummy.h
   # test.h test.cpp
 )
-
-# target_link_libraries(my_repo_2_lib Qt${QT_VERSION_MAJOR}::Core)
