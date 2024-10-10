@@ -21,7 +21,7 @@ add_library(my_repo_2_lib STATIC
 # target_link_libraries(my_repo_2_lib Qt${QT_VERSION_MAJOR}::Core)
 
 include(GNUInstallDirs)
-install(TARGETS parent_repo
+install(TARGETS my_repo_2_lib
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
