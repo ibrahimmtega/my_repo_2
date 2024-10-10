@@ -1,7 +1,10 @@
 
 
+#include "dummy.h"
 int main(int argc, char *argv[])
 {
 
-    return 0;
+
+    Dummy h;
+    return h.x;
 }
