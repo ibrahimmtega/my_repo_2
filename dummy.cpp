@@ -1,5 +1,7 @@
 #include "dummy.h"
-void Dummy:print(){
-    
+#include <iostream>
+
+void Dummy::print(){
+    std::cout<<"this is dummy print"<<std::endl;
 }
 
