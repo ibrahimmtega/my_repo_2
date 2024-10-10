@@ -8,5 +8,5 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_library(my_repo_2_lib STATIC
   main.cpp
   dummy.h
-  # test.h test.cpp
+  dummy.cpp
 )
